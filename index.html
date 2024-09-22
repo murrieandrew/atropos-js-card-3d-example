@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 3D</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./atropos/atropos.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="./atropos/atropos.min.js"></script>
+</head>
+
+<body>
+    <div class="atropos container">
+      <div class="cards">
+        <div class="cards-back">
+            <h1>FINN</h1>
+        </div>
+
+ <div class="card" data-atropos-offset="5">
+    <!-- scale container (required) -->
+  <div class="atropos-scale">
+    <!-- rotate container (required) -->
+    <div class="atropos-rotate">
+      <!-- inner container (required) -->
+      <div class="atropos-inner">
+        <div class="card-info">
+            <header>
+                <h2 data-atropos-offset="5">Rey Skywalker</h2>
+                <span>Firmly connected as Emperor Palpatine's Granddaughter (yes, the Emperor Palpatine) in The Rise of Skywalker.</span>
+            </header>
+
+            <div class="character">
+                <img src="./assets/card-front/Character.png" alt="Rey Skywalker" data-atropos-offset="5">
+            </div>
+            <main>
+
+                <div class="info">
+                    <span>Most powerful Jedi</span>
+                    <h4>Jedi Master who fought in the First Order War </h4>
+                </div>
+
+                <div class="info">
+                    <span>Species</span>
+                    <h4>Human</h4>
+                </div>
+
+                <div class="info">
+                    <span>Height</span>
+                    <h4>5'8''</h4>
+                </div>
+
+                <div class="info">
+                    <span>Location</span>
+                    <h4>Jakku</h4>
+                </div>
+
+                <div class="info">
+                    <span>Weapons</span>
+                    <h4>Healing to heal herself or other sentient beings</h4>
+                </div>
+
+            </main>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+          
+        </div>
+
+        <div class="cards-back">
+            <h1>BB-8</h1>
+        </div>
+      </div>
+    </div>
+    <script>
+        new Atropos({
+            el: ".atropos"
+        })
+    </script>
+</body>
+
+</html>
